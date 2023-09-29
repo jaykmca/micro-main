@@ -1,18 +1,29 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h1>My Vue@2 App One</h1>
+    <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+    <!-- <SideBarMenu/> -->
+    <aside class="sidebar">
+      <SideBarMenu/>
+    </aside>
+    <!-- <router-view></router-view> -->
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+//import HelloWorld from './components/HelloWorld.vue'
+//import SideBarMenu from './components/SideBarMenu.vue'
+//import { Component, Vue } from "vue-property-decorator";
+//import SideBarMenu   from 'web_common/SideBarMenu'
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+     //HelloWorld,
+     //SideBarMenu
+   }
 }
 </script>
 
@@ -25,4 +36,4 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
-</style>
+</style> 
